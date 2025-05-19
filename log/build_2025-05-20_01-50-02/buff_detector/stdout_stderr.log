@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target buff_detector[0m
+[ 33%] Built target buff_detector_node
+[ 50%] [32mBuilding CXX object CMakeFiles/buff_detector.dir/src/detector_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libbuff_detector.so[0m
+[100%] Built target buff_detector
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/lib/buff_detector/buff_detector_node
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/include/buff_detector/blade.hpp
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/include/buff_detector/detector.hpp
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/include/buff_detector/detector_node.hpp
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/include/buff_detector/pnp_solver.hpp
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/environment/library_path.sh
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/environment/library_path.dsv
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/lib/libbuff_detector.so
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/models/buff_quantized.bin
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/models/buff_quantized.xml
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/models/metadata.yaml
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/launch/buff_detector.launch.py
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/ament_index/resource_index/package_run_dependencies/buff_detector
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/ament_index/resource_index/parent_prefix_path/buff_detector
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/environment/path.sh
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/environment/path.dsv
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/local_setup.bash
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/local_setup.sh
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/local_setup.zsh
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/local_setup.dsv
+-- Symlinking: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/package.dsv
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/ament_index/resource_index/packages/buff_detector
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/ament_index/resource_index/rclcpp_components/buff_detector
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/cmake/buff_detectorConfig.cmake
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/cmake/buff_detectorConfig-version.cmake
+-- Up-to-date symlink: /home/hdm/ttttt/tracker_plus/install/buff_detector/share/buff_detector/package.xml

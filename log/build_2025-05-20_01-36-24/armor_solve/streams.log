@@ -1,0 +1,83 @@
+[0.018s] Invoking command in '/home/hdm/ttttt/tracker_plus/build/armor_solve': AMENT_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hdm/ttttt/tracker_plus/src/rm_auto_aim/armor_solve -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hdm/ttttt/tracker_plus/install/armor_solve
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.249s] -- Detecting CXX compiler ABI info
+[0.347s] -- Detecting CXX compiler ABI info - done
+[0.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.354s] -- Detecting CXX compile features
+[0.355s] -- Detecting CXX compile features - done
+[0.357s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.566s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.633s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.764s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.768s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.775s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.785s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.868s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.872s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.988s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.023s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.071s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.079s] -- Looking for pthread.h
+[1.164s] -- Looking for pthread.h - found
+[1.164s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.248s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.249s] -- Found Threads: TRUE  
+[1.400s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.402s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.402s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.484s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.507s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.507s] -- Configured cppcheck include dirs: /home/hdm/ttttt/tracker_plus/src/rm_auto_aim/armor_solve/include
+[1.508s] -- Configured cppcheck exclude dirs and/or files: 
+[1.508s] -- Added test 'lint_cmake' to check CMake code style
+[1.509s] -- Added test 'xmllint' to check XML markup files
+[1.509s] -- Added test 'clang_format' to check C / C++ code style
+[1.512s] -- Configuring done
+[1.527s] -- Generating done
+[1.532s] -- Build files have been written to: /home/hdm/ttttt/tracker_plus/build/armor_solve
+[1.541s] Invoked command in '/home/hdm/ttttt/tracker_plus/build/armor_solve' returned '0': AMENT_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hdm/ttttt/tracker_plus/src/rm_auto_aim/armor_solve -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hdm/ttttt/tracker_plus/install/armor_solve
+[1.544s] Invoking command in '/home/hdm/ttttt/tracker_plus/build/armor_solve': AMENT_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hdm/ttttt/tracker_plus/build/armor_solve -- -j24 -l24
+[1.607s] [ 20%] [32mBuilding CXX object CMakeFiles/armor_solve.dir/src/solve_node.cpp.o[0m
+[1.612s] [ 40%] [32mBuilding CXX object CMakeFiles/armor_solve.dir/src/solve.cpp.o[0m
+[1.612s] [ 60%] [32mBuilding CXX object CMakeFiles/armor_solve_node.dir/rclcpp_components/node_main_armor_solve_node.cpp.o[0m
+[5.204s] [ 80%] [32m[1mLinking CXX executable armor_solve_node[0m
+[5.342s] [ 80%] Built target armor_solve_node
+[20.011s] [100%] [32m[1mLinking CXX shared library libarmor_solve.so[0m
+[20.948s] [100%] Built target armor_solve
+[20.958s] Invoked command in '/home/hdm/ttttt/tracker_plus/build/armor_solve' returned '0': AMENT_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hdm/ttttt/tracker_plus/build/armor_solve -- -j24 -l24
+[20.959s] Invoking command in '/home/hdm/ttttt/tracker_plus/build/armor_solve': AMENT_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hdm/ttttt/tracker_plus/build/armor_solve
+[20.965s] -- Install configuration: ""
+[20.966s] -- Execute custom install script
+[20.966s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/lib/armor_solve/armor_solve_node
+[20.972s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/include/armor_solve/solve.hpp
+[20.980s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/include/armor_solve/solve_node.hpp
+[20.988s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/environment/library_path.sh
+[20.995s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/environment/library_path.dsv
+[21.003s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/lib/libarmor_solve.so
+[21.012s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/ament_index/resource_index/package_run_dependencies/armor_solve
+[21.019s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/ament_index/resource_index/parent_prefix_path/armor_solve
+[21.026s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/environment/ament_prefix_path.sh
+[21.034s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/environment/ament_prefix_path.dsv
+[21.042s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/environment/path.sh
+[21.048s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/environment/path.dsv
+[21.056s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/local_setup.bash
+[21.062s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/local_setup.sh
+[21.069s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/local_setup.zsh
+[21.077s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/local_setup.dsv
+[21.087s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/package.dsv
+[21.094s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/ament_index/resource_index/packages/armor_solve
+[21.102s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/ament_index/resource_index/rclcpp_components/armor_solve
+[21.111s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.118s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.127s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/cmake/ament_cmake_export_libraries-extras.cmake
+[21.134s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/cmake/armor_solveConfig.cmake
+[21.142s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/cmake/armor_solveConfig-version.cmake
+[21.151s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_solve/share/armor_solve/package.xml
+[21.160s] Invoked command in '/home/hdm/ttttt/tracker_plus/build/armor_solve' returned '0': AMENT_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hdm/ttttt/tracker_plus/build/armor_solve

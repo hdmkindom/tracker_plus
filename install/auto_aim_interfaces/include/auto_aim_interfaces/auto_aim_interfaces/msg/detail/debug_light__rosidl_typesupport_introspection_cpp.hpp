@@ -1,0 +1,1 @@
+/home/hdm/ttttt/tracker_plus/build/auto_aim_interfaces/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp

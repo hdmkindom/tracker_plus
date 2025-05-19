@@ -1,0 +1,14 @@
+[01m[K/home/hdm/ttttt/tracker_plus/src/rm_buff/buff_detector/src/detector.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_buff::Blade> rm_buff::Detector::Detect(cv::Mat&)[m[K’:
+[01m[K/home/hdm/ttttt/tracker_plus/src/rm_buff/buff_detector/src/detector.cpp:94:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+   94 |   debug_img = src_img
+      |                      [01;31m[K^[m[K
+      |                      [32m[K;[m[K
+   95 | 
+   96 |   [32m[Kfor[m[K (size_t i = 0; i < blade_array_.size(); i++) {
+      |   [32m[K~~~[m[K                 
+[01m[K/home/hdm/ttttt/tracker_plus/src/rm_buff/buff_detector/src/detector.cpp:96:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   96 |   for (size_t i = 0; [01;31m[Ki[m[K < blade_array_.size(); i++) {
+      |                      [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/buff_detector.dir/build.make:76：CMakeFiles/buff_detector.dir/src/detector.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/buff_detector.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

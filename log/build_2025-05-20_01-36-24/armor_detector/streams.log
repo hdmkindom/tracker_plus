@@ -1,0 +1,106 @@
+[0.015s] Invoking command in '/home/hdm/ttttt/tracker_plus/build/armor_detector': AMENT_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hdm/ttttt/tracker_plus/src/rm_auto_aim/armor_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hdm/ttttt/tracker_plus/install/armor_detector
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.152s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.347s] -- Detecting CXX compile features - done
+[0.350s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.558s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.632s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.670s] -- Found OpenCV: /home/hdm/environment (found version "4.5.4") 
+[0.779s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.783s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.790s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.815s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.854s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.856s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.949s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.984s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.023s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.031s] -- Looking for pthread.h
+[1.111s] -- Looking for pthread.h - found
+[1.111s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.199s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.201s] -- Found Threads: TRUE  
+[1.384s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.385s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.385s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.454s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.471s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.480s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.502s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.502s] -- Configured cppcheck include dirs: /home/hdm/ttttt/tracker_plus/src/rm_auto_aim/armor_detector/include
+[1.502s] -- Configured cppcheck exclude dirs and/or files: 
+[1.504s] -- Added test 'lint_cmake' to check CMake code style
+[1.505s] -- Added test 'xmllint' to check XML markup files
+[1.508s] -- Added test 'clang_format' to check C / C++ code style
+[1.512s] -- Configuring done
+[1.562s] -- Generating done
+[1.578s] -- Build files have been written to: /home/hdm/ttttt/tracker_plus/build/armor_detector
+[1.592s] Invoked command in '/home/hdm/ttttt/tracker_plus/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hdm/ttttt/tracker_plus/src/rm_auto_aim/armor_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hdm/ttttt/tracker_plus/install/armor_detector
+[1.594s] Invoking command in '/home/hdm/ttttt/tracker_plus/build/armor_detector': AMENT_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hdm/ttttt/tracker_plus/build/armor_detector -- -j24 -l24
+[1.660s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.662s] [ 13%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o[0m
+[1.662s] [ 26%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector.cpp.o[0m
+[1.662s] [ 26%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[1.663s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.664s] [ 40%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector_node.cpp.o[0m
+[1.664s] [ 46%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o[0m
+[2.642s] [ 53%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.747s] [ 53%] Built target gtest_main
+[5.630s] [ 60%] [32m[1mLinking CXX executable armor_detector_node[0m
+[5.711s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.785s] [ 66%] Built target armor_detector_node
+[5.836s] [ 66%] Built target gtest
+[20.269s] [ 73%] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[21.173s] [ 73%] Built target armor_detector
+[21.192s] [ 80%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[21.192s] [ 86%] [32mBuilding CXX object CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o[0m
+[22.589s] [ 93%] [32m[1mLinking CXX executable test_number_cls[0m
+[22.946s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[23.169s] [ 93%] Built target test_number_cls
+[24.562s] [100%] [32m[1mLinking CXX executable test_node_startup[0m
+[25.078s] [100%] Built target test_node_startup
+[25.088s] Invoked command in '/home/hdm/ttttt/tracker_plus/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hdm/ttttt/tracker_plus/build/armor_detector -- -j24 -l24
+[25.090s] Invoking command in '/home/hdm/ttttt/tracker_plus/build/armor_detector': AMENT_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hdm/ttttt/tracker_plus/build/armor_detector
+[25.094s] -- Install configuration: ""
+[25.095s] -- Execute custom install script
+[25.095s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/lib/armor_detector/armor_detector_node
+[25.101s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/include/armor_detector/armor.hpp
+[25.108s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/include/armor_detector/detector.hpp
+[25.115s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/include/armor_detector/detector_node.hpp
+[25.122s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/include/armor_detector/number_classifier.hpp
+[25.130s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/include/armor_detector/pnp_solver.hpp
+[25.136s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/environment/library_path.sh
+[25.142s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/environment/library_path.dsv
+[25.149s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/lib/libarmor_detector.so
+[25.157s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/model/label.txt
+[25.164s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/model/mlp.onnx
+[25.170s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+[25.176s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+[25.182s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+[25.189s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+[25.194s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/environment/path.sh
+[25.201s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/environment/path.dsv
+[25.206s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/local_setup.bash
+[25.214s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/local_setup.sh
+[25.220s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/local_setup.zsh
+[25.225s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/local_setup.dsv
+[25.232s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/package.dsv
+[25.237s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+[25.242s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+[25.249s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.256s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.261s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[25.267s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+[25.272s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+[25.278s] -- Symlinking: /home/hdm/ttttt/tracker_plus/install/armor_detector/share/armor_detector/package.xml
+[25.286s] Invoked command in '/home/hdm/ttttt/tracker_plus/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hdm/ttttt/tracker_plus/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hdm/ttttt/tracker_plus/build/armor_detector

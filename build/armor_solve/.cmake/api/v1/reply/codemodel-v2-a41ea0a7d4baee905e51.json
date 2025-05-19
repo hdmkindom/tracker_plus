@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-38009369ca1ff8d8de54.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "armor_solve",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_solve::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_solve-30f0135108a036966ffa.json",
+					"name" : "armor_solve",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_solve_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_solve_node-cb92c13865941a57319e.json",
+					"name" : "armor_solve_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_solve_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_solve_uninstall-94d9e6365eba454279ff.json",
+					"name" : "armor_solve_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-eda94258971458fce98d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hdm/ttttt/tracker_plus/build/armor_solve",
+		"source" : "/home/hdm/ttttt/tracker_plus/src/rm_auto_aim/armor_solve"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4bc4357057fb707f5d1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "buff_executor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "buff_executor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-buff_executor-85b4ee1c47c49825574e.json",
+					"name" : "buff_executor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "buff_executor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-buff_executor_node-fb4854d24d9f5e39a5f6.json",
+					"name" : "buff_executor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "buff_executor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-buff_executor_uninstall-8be80f231b5a9be15ab6.json",
+					"name" : "buff_executor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7bfd4189626058f29f56.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hdm/ttttt/tracker_plus/build/buff_executor",
+		"source" : "/home/hdm/ttttt/tracker_plus/src/rm_buff/buff_executor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2aec06216bde15ea304a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "buff_detector",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "buff_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-buff_detector-8956dfa01b07f1a2b509.json",
+					"name" : "buff_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "buff_detector_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-buff_detector_node-e8f9bc6df009890bac74.json",
+					"name" : "buff_detector_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "buff_detector_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-buff_detector_uninstall-6e28c8a165c88b064216.json",
+					"name" : "buff_detector_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b58599bb0b2895edfac5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hdm/ttttt/tracker_plus/build/buff_detector",
+		"source" : "/home/hdm/ttttt/tracker_plus/src/rm_buff/buff_detector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

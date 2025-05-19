@@ -1,0 +1,9 @@
+/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/Blade.idl
+/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/BladeArray.idl
+/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/DebugBlade.idl
+/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/DebugBladeArray.idl
+/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/Rune.idl
+/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/RuneInfo.idl
+/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/TimeInfo.idl
+/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/Velocity.idl
+/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_adapter/buff_interfaces:msg/BuffSend.idl

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hdm/ttttt/tracker_plus/build/buff_tracker/libbuff_tracker.so" "TARGETS" "buff_tracker" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
