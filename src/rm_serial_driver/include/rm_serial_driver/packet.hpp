@@ -41,7 +41,7 @@ struct SendPacket
   float x;  //装甲板在世界坐标系下的x
   float y;  //装甲板在世界坐标系下的y
   float z;  //装甲板在世界坐标系下的z
-  float v_yaw;
+  float id;
 
   float pitch; 
   float yaw;  //云台的yaw

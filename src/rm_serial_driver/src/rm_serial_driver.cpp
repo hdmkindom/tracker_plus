@@ -45,7 +45,7 @@ RMSerialDriver::RMSerialDriver(const rclcpp::NodeOptions & options)
   latency_pub_ = this->create_publisher<std_msgs::msg::Float64>("/latency", 10);
   marker_pub_ = this->create_publisher<visualization_msgs::msg::Marker>("/aiming_point", 10);
   velocity_pub_ = this->create_publisher<auto_aim_interfaces::msg::Velocity>("/current_velocity", 10);
-  buff_velocity_pub_ = this->create_publisher<buff_interfaces::msg::Velocity>("/tracker/current_velocity", 10);
+  buff_velocity_pub_ = this->create_publisher<buff_interfaces::msg::Velocity>("/buff_current_velocity", 10);
 
   aim_time_info_pub_ =
     this->create_publisher<auto_aim_interfaces::msg::TimeInfo>("/time_info/aim", 10);
@@ -94,7 +94,7 @@ RMSerialDriver::RMSerialDriver(const rclcpp::NodeOptions & options)
   //   std::bind(&RMSerialDriver::sendData, this, std::placeholders::_1));
 
   armor_send_sub_ = this->create_subscription<auto_aim_interfaces::msg::Send>(
-    "/tracker/send", rclcpp::SensorDataQoS(),
+    "/solve/send", rclcpp::SensorDataQoS(),
     std::bind(&RMSerialDriver::sendArmorData, this, std::placeholders::_1));
 
   buff_send_sub_ = this->create_subscription<buff_interfaces::msg::BuffSend>(
@@ -239,7 +239,7 @@ void RMSerialDriver::receiveData()
           std_msgs::msg::String record_controller;
 
           // record_controller.data = packet.is_play ? "start" : "stop";
-          record_controller.data = "start";
+          record_controller.data = "stop";
           auto_aim_interfaces::msg::Receive receive_now;
 
 
@@ -332,7 +332,13 @@ void RMSerialDriver::sendArmorData(const auto_aim_interfaces::msg::Send::SharedP
     packet.x = armor_msg->position.x;
     packet.y = armor_msg->position.y;
     packet.z = armor_msg->position.z;
-    packet.v_yaw = armor_msg->v_yaw;
+
+    auto it = id_unit8_map.find(armor_msg->id);
+    if (it != id_unit8_map.end()) {
+      packet.id = it->second;  // 如果找到对应的 id，赋值给 packet.id
+    } else {
+      packet.id = 0;  // 如果未找到，设置为默认值 0
+    }
 
     pitch = armor_msg->pitch;
     yaw = armor_msg->yaw;
@@ -395,7 +401,7 @@ void RMSerialDriver::sendBuffData(const buff_interfaces::msg::BuffSend::SharedPt
     packet.x = buff_msg->position.x;
     packet.y = buff_msg->position.y;
     packet.z = buff_msg->position.z;
-    packet.v_yaw = 0;
+    packet.id = 0;
 
     pitch = buff_msg->pitch;
     yaw = buff_msg->yaw;

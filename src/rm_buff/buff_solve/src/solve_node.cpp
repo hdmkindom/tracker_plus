@@ -33,13 +33,12 @@ BuffSolveNode::BuffSolveNode(const rclcpp::NodeOptions & options)
     // Subscriber
 
     buff_velocity_sub_ = this->create_subscription<buff_interfaces::msg::Velocity>(
-        "/buff_current_velocity", rclcpp::QoS(rclcpp::QoSInitialization::from_rmw(rmw_qos_profile_sensor_data)),
+        "/buff_current_velocity", 10,
         std::bind(&BuffSolveNode::velocityCallback, this, std::placeholders::_1));
     
     blade_array_sub_ = this->create_subscription<buff_interfaces::msg::BladeArray>(
         "/detector/blade_array", 10,
         std::bind(&BuffSolveNode::bladeCallback, this, std::placeholders::_1));
-
 }
 
 void BuffSolveNode::velocityCallback(
@@ -98,3 +97,9 @@ void BuffSolveNode::bladeCallback(
 //     aim_point_pub_->publish(aim_point_marker_);
 // }
 }  // namespace rm_buff
+#include "rclcpp_components/register_node_macro.hpp"
+
+// Register the component with class_loader.
+// This acts as a sort of entry point, allowing the component to be discoverable when its library
+// is being loaded into a running process.
+RCLCPP_COMPONENTS_REGISTER_NODE(rm_buff::BuffSolveNode)

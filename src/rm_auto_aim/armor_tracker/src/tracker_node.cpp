@@ -202,7 +202,7 @@ ArmorTrackerNode::ArmorTrackerNode(const rclcpp::NodeOptions & options)
         "/tracker/target", rclcpp::SensorDataQoS());
 
     tracker_latency_pub_ = this->create_publisher<auto_aim_interfaces::msg::TrackerLatency>(
-        "/tracker/latency", rclcpp::SensorDataQoS());
+        "/tracker/latency", 10);
 
     info_pub_ = this->create_publisher<auto_aim_interfaces::msg::TrackerInfo>(
         "/tracker/info", 10);

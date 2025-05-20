@@ -108,7 +108,7 @@ int Solve::selectArmor(const auto_aim_interfaces::msg::Target::SharedPtr& msg) {
  * @param aim_z z打击落点
  * @return std::pair<float, float> 
  */
-std::pair<float, float> Solve::calculatePitchAndYaw(int idx, const auto_aim_interfaces::msg::Target::SharedPtr& msg, float timeDelay, float s_bias, float z_bias, float current_v, bool use_target_center_for_yaw,float& aim_x, float& aim_y, float& aim_z) {
+std::pair<float, float> Solve::calculatePitchAndYaw(int idx, const auto_aim_interfaces::msg::Target::SharedPtr& msg, float timeDelay, float s_bias, float z_bias, float current_v, bool use_target_center_for_yaw, float& aim_x, float& aim_y, float& aim_z) {
     
     // 对打击目标xyz进行线性预测,初步的落点
     aim_x = tar_position[idx].x  + msg->velocity.x * timeDelay;

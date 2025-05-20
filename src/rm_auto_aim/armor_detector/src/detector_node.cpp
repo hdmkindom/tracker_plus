@@ -67,8 +67,8 @@ ArmorDetectorNode::ArmorDetectorNode(const rclcpp::NodeOptions & options)
     this->create_publisher<visualization_msgs::msg::MarkerArray>("/detector/marker", 10);
 
   detector_latency_pub_ = 
-    this->create_publisher<auto_aim_interfaces::msg::DetectorLatency>("/detector/Latency", 
-      rclcpp::QoS(rclcpp::QoSInitialization::from_rmw(rmw_qos_profile_sensor_data)));
+    this->create_publisher<auto_aim_interfaces::msg::DetectorLatency>(
+      "/detector/Latency", 10);
 
   // Debug Publishers
   debug_ = this->declare_parameter("debug", false);

@@ -91,11 +91,6 @@ def generate_launch_description():
     period=3.0,
     actions=[buff_solve_node]
     )
-
-    # delay_buff_tracker_node = TimerAction(
-    #     period=2.0,
-    #     actions=[buff_tracker_node],
-    # )
     
     delay_auto_record_node = TimerAction(
         period=3.5,
@@ -111,7 +106,6 @@ def generate_launch_description():
         delay_armor_tracker_node,
         delay_armor_solve_node,
         delay_buff_solve_node,
-        # delay_buff_tracker_node,
         delay_auto_record_node
 
     ])

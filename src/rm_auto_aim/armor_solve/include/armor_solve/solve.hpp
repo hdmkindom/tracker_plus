@@ -57,7 +57,7 @@ public:
 
 
     // initVelocity
-    float current_v;
+    float current_v = 0.11;
 
     // initReceive
     float receive_pitch;

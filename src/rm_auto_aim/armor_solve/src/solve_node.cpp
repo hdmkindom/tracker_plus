@@ -46,7 +46,7 @@ ArmorSolveNode::ArmorSolveNode(const rclcpp::NodeOptions & options)
         std::bind(&ArmorSolveNode::velocityCallback, this, std::placeholders::_1));
     
     target_sub_ = this->create_subscription<auto_aim_interfaces::msg::Target>(
-        "/tracker/target", rclcpp::QoS(rclcpp::QoSInitialization::from_rmw(rmw_qos_profile_sensor_data)),
+        "/tracker/target", rclcpp::SensorDataQoS(),
         std::bind(&ArmorSolveNode::targetCallback, this, std::placeholders::_1));
 
     detector_latency_sub_ = this->create_subscription<auto_aim_interfaces::msg::DetectorLatency>(
@@ -54,9 +54,8 @@ ArmorSolveNode::ArmorSolveNode(const rclcpp::NodeOptions & options)
         std::bind(&ArmorSolveNode::detectorLatencyCallback, this, std::placeholders::_1));
 
     tracker_latency_sub_ = this->create_subscription<auto_aim_interfaces::msg::TrackerLatency>(
-        "/tracker/latency", rclcpp::QoS(rclcpp::QoSInitialization::from_rmw(rmw_qos_profile_sensor_data)),
+        "/tracker/latency", rclcpp::SensorDataQoS(),
         std::bind(&ArmorSolveNode::trackerLatencyCallback, this, std::placeholders::_1));
-
 
     // Visualization marker
     // See http://wiki.ros.org/rviz/DisplayTypes/Marker
@@ -120,6 +119,10 @@ void ArmorSolveNode::targetCallback(
     send_msg.header.stamp = time;
     solve_info_msg.header = target_msg->header;
 
+    std::cout << "current_v " << current_v << std::endl;
+    std::cout << "solve->current_v " << solve_->current_v << std::endl;
+
+
     // 发弹时间线性预测
     int delay_time = bias_time + det_latency + tra_latency;
     // int delay_time = bias_time;
@@ -133,6 +136,7 @@ void ArmorSolveNode::targetCallback(
     //      2
     //   3     1
     //      0
+
     if (target_msg->armors_num == ARMOR_NUM_OUTPOST) {
         solve_ -> calculateArmorPosition(target_msg, false, true, tar_yaw);
     }
@@ -146,7 +150,7 @@ void ArmorSolveNode::targetCallback(
 
     std::pair<float, float> pitch_and_yaw;
 
-    pitch_and_yaw = solve_ -> calculatePitchAndYaw(idx, target_msg, time_delay, s_bias, z_bias, current_v, false, aim_x, aim_y, aim_z);
+    pitch_and_yaw = solve_ -> calculatePitchAndYaw(idx, target_msg, time_delay, s_bias, z_bias, solve_->current_v, false, aim_x, aim_y, aim_z);
 
     // 使用 pitch_and_yaw 的值
     float send_pitch = pitch_and_yaw.first;
@@ -156,6 +160,7 @@ void ArmorSolveNode::targetCallback(
     is_fire = solve_->shouldFire(send_msg.yaw, solve_->receive_yaw, fire_k, d_yaw);
 
     // 发布传参
+    send_msg.id = target_msg->id;
     send_msg.pitch = send_pitch;
     send_msg.yaw = send_yaw;
     send_msg.is_fire = is_fire;
@@ -181,3 +186,10 @@ void ArmorSolveNode::publishMarker(const auto_aim_interfaces::msg::SolveInfo & s
 }
 
 }  // namespace rm_auto_aim
+
+#include "rclcpp_components/register_node_macro.hpp"
+
+// Register the component with class_loader.
+// This acts as a sort of entry point, allowing the component to be discoverable when its library
+// is being loaded into a running process.
+RCLCPP_COMPONENTS_REGISTER_NODE(rm_auto_aim::ArmorSolveNode)

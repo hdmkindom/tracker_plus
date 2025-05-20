@@ -14,7 +14,7 @@
 
   <depend>buff_interfaces</depend>
   <depend>buff_detector</depend>
-  <depend>buff_tracker</depend>
+  <depend>buff_solve</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

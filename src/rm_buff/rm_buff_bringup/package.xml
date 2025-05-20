@@ -16,7 +16,7 @@
   <test_depend>ament_lint_common</test_depend>
 
   <depend>buff_detector</depend>
-  <depend>buff_tracker</depend>
+  <depend>buff_solve</depend>
   <depend>rm_serial_driver</depend>
   <depend>rm_gimbal_description</depend>
 

@@ -12,7 +12,6 @@ armor_tracker_log_level: INFO
 armor_solve_log_level: INFO
 buff_detector_log_level: INFO
 buff_solve_log_level: INFO
-# buff_tracker_log_level: INFO
 serial_log_level: ERROR
 auto_record_log_level: INFO
 
