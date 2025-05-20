@@ -1,1 +1,0 @@
-/home/hdm/ttttt/tracker_plus/src/rm_auto_record/include/rm_auto_record/record.hpp

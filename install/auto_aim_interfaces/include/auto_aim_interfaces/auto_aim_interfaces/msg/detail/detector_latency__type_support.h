@@ -1,1 +1,0 @@
-/home/hdm/ttttt/tracker_plus/build/auto_aim_interfaces/rosidl_generator_c/auto_aim_interfaces/msg/detail/detector_latency__type_support.h

@@ -1,1 +1,0 @@
-/home/hdm/ttttt/tracker_plus/src/rm_auto_aim/armor_detector/include/armor_detector/pnp_solver.hpp

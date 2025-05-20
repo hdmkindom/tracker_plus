@@ -1,4 +1,0 @@
-Invoking command in '/home/hdm/ttttt/tracker_plus/build/rm_auto_record': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/ttttt/tracker_plus/build/rm_auto_record -- -j24 -l24
-Invoked command in '/home/hdm/ttttt/tracker_plus/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/ttttt/tracker_plus/build/rm_auto_record -- -j24 -l24
-Invoking command in '/home/hdm/ttttt/tracker_plus/build/rm_auto_record': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hdm/ttttt/tracker_plus/build/rm_auto_record
-Invoked command in '/home/hdm/ttttt/tracker_plus/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hdm/ttttt/tracker_plus/build/rm_auto_record

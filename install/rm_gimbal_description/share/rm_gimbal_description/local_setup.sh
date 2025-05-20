@@ -1,1 +1,0 @@
-/home/hdm/ttttt/tracker_plus/build/rm_gimbal_description/ament_cmake_environment_hooks/local_setup.sh

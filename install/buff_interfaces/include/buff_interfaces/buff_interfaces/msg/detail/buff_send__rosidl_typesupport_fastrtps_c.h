@@ -1,1 +1,0 @@
-/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_typesupport_fastrtps_c/buff_interfaces/msg/detail/buff_send__rosidl_typesupport_fastrtps_c.h

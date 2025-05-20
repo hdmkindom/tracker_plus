@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target buff_detector_node[0m
-[35m[1mConsolidate compiler generated dependencies of target buff_detector[0m
-[ 33%] Built target buff_detector_node
-[ 50%] [32mBuilding CXX object CMakeFiles/buff_detector.dir/src/detector.cpp.o[0m

@@ -1,1 +1,0 @@
-/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_generator_py/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c

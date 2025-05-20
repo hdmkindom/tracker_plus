@@ -1,1 +1,0 @@
-/home/hdm/ttttt/tracker_plus/build/buff_detector/ament_cmake_core/buff_detectorConfig-version.cmake

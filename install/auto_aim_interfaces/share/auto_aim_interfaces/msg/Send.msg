@@ -1,1 +1,0 @@
-/home/hdm/ttttt/tracker_plus/src/rm_auto_aim/auto_aim_interfaces/msg/Send.msg

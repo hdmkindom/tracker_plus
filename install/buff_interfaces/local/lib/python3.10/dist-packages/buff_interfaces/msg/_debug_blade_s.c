@@ -1,1 +1,0 @@
-/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_generator_py/buff_interfaces/msg/_debug_blade_s.c

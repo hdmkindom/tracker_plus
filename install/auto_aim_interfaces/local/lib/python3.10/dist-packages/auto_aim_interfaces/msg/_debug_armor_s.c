@@ -1,1 +1,0 @@
-/home/hdm/ttttt/tracker_plus/build/auto_aim_interfaces/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armor_s.c

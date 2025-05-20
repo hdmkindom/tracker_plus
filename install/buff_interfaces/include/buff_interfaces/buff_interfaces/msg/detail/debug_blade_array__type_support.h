@@ -1,1 +1,0 @@
-/home/hdm/ttttt/tracker_plus/build/buff_interfaces/rosidl_generator_c/buff_interfaces/msg/detail/debug_blade_array__type_support.h

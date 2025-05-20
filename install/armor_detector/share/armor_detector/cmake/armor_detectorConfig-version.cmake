@@ -1,1 +1,0 @@
-/home/hdm/ttttt/tracker_plus/build/armor_detector/ament_cmake_core/armor_detectorConfig-version.cmake
