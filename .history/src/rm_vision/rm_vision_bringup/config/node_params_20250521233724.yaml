@@ -17,7 +17,7 @@
 
 /armor_detector:
   ros__parameters:
-    debug: false
+    debug: true
 
     detect_color: 0 #0-RED, 1-BLUE
     binary_thres: 70

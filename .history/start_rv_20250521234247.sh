@@ -20,12 +20,6 @@ function INFO(){
     echo ""
     echo "早睡觉,莫熬夜.通宵会降低智力 :( "
     echo ""
-
-    node_params_file="src/rm_vision/rm_vision_bringup/config/node_params.yaml"
-    # 检查 node_params.yaml 文件是否存在
-    if [ ! -f "$node_params_file" ]; then
-        echo "错误: $node_params_file 文件未找到。"
-    fi
 }
 
 function no_hardware(){
@@ -77,7 +71,6 @@ function rm_vision_bringup(){
     # 并将其中的 "true" 替换为 "false"。
     # 它通过分组 \(\s*debug:\s*\) 来保留 "debug: " 部分及其前面的空格。
     sed -i 's|^\(\s*debug:\s*\)true|\1false|' "$node_params_file"
-    
     if grep -q "^\s*debug:\s*false" "$node_params_file"; then
         echo "/armor_detector: 下的 debug 参数已更新为 false。"
     else

@@ -20,12 +20,6 @@ function INFO(){
     echo ""
     echo "早睡觉,莫熬夜.通宵会降低智力 :( "
     echo ""
-
-    node_params_file="src/rm_vision/rm_vision_bringup/config/node_params.yaml"
-    # 检查 node_params.yaml 文件是否存在
-    if [ ! -f "$node_params_file" ]; then
-        echo "错误: $node_params_file 文件未找到。"
-    fi
 }
 
 function no_hardware(){
