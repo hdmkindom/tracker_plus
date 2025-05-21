@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/hdm/ttttt/tracker_plus/src/rm_auto_aim/armor_detector/include/**",
+        "/home/hdm/ttttt/tracker_plus/src/rm_auto_aim/armor_solve/include/**",
+        "/home/hdm/ttttt/tracker_plus/src/rm_auto_aim/armor_tracker/include/**",
+        "/home/hdm/ttttt/tracker_plus/src/rm_auto_record/include/**",
+        "/home/hdm/ttttt/tracker_plus/src/rm_buff/buff_detector/include/**",
+        "/home/hdm/ttttt/tracker_plus/src/rm_buff/buff_solve/include/**",
+        "/home/hdm/ttttt/tracker_plus/src/rm_serial_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
