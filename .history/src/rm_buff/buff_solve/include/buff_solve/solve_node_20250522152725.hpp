@@ -26,6 +26,10 @@
 
 namespace rm_buff
 {
+
+using tf2_filter = tf2_ros::MessageFilter<buff_interfaces::msg::BladeArray>;
+using velocity_tf2_filter = tf2_ros::MessageFilter<buff_interfaces::msg::Velocity>;
+
 class BuffSolveNode : public rclcpp::Node
 {
 public:
@@ -33,7 +37,7 @@ public:
 
 private:
     void velocityCallback(const buff_interfaces::msg::Velocity::SharedPtr velocity_msg);
-    void bladeCallback(const buff_interfaces::msg::BladeArray::SharedPtr blade_array_msg);
+    void bladesCallback(const buff_interfaces::msg::BladeArray::SharedPtr blade_array_msg);
 
     // solve
     std::unique_ptr<Solve> solve_;
@@ -53,5 +57,13 @@ private:
     // Subscriber
     rclcpp::Subscription<buff_interfaces::msg::BladeArray>::SharedPtr blade_array_sub_;
     rclcpp::Subscription<buff_interfaces::msg::Velocity>::SharedPtr buff_velocity_sub_;
+
+    // Subscriber with tf2 message_filter
+    std::string target_frame_;
+    std::shared_ptr<tf2_ros::Buffer> tf2_buffer_;
+    std::shared_ptr<tf2_ros::TransformListener> tf2_listener_;
+    message_filters::Subscriber<buff_interfaces::msg::BladeArray> blades_sub_;
+    std::shared_ptr<tf2_filter> tf2_filter_;
+
 };
 }   // namespace rm_buff

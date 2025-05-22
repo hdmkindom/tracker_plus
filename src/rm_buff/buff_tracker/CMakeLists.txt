@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.10)
-project(buff_solve)
+cmake_minimum_required(VERSION 3.8)
+project(buff_tracker)
 
 ## Use C++14
 set(CMAKE_CXX_STANDARD 14)
@@ -17,6 +17,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 #######################
 
 find_package(ament_cmake_auto REQUIRED)
+find_package(OpenCV REQUIRED)
 ament_auto_find_build_dependencies()
 
 ###########
@@ -27,9 +28,13 @@ ament_auto_add_library(${PROJECT_NAME} SHARED
   DIRECTORY src
 )
 
+target_include_directories(${PROJECT_NAME} PUBLIC ${OpenCV_INCLUDE_DIRS})
+target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
+target_link_libraries(${PROJECT_NAME} ${OpenVINO_LIBRARIES})
+
 rclcpp_components_register_node(${PROJECT_NAME}
-  PLUGIN buff_aim::BuffSolveNode
-  EXECUTABLE ${PROJECT_NAME}_node
+  PLUGIN rm_buff::BuffTrackerNode
+  EXECUTABLE buff_tracker_node
 )
 
 #############
@@ -45,14 +50,12 @@ if(BUILD_TESTING)
   )
   ament_lint_auto_find_test_dependencies()
 
-  # find_package(ament_cmake_gtest)
-  # set(TEST_NAME test_kalman_filter)
-  # ament_add_gtest(${TEST_NAME} test/${TEST_NAME}.cpp)
-  # target_link_libraries(${TEST_NAME} ${PROJECT_NAME})
 endif()
 
 #############
 ## Install ##
 #############
 
-ament_auto_package()
+ament_auto_package(
+  INSTALL_TO_SHARE
+)
